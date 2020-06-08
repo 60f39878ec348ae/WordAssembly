@@ -17,6 +17,7 @@ namespace WordAssembly
             var words = WordAssembly.Properties.Resources.words.Split(new[] { Environment.NewLine }, StringSplitOptions.None);
             var list = new List<string>(words);
 
+
             Console.WriteLine("Possible words:");
             for (int i = 2; i <= input.Length; i++)
             {
