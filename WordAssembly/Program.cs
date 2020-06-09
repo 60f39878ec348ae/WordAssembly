@@ -27,8 +27,6 @@ namespace WordAssembly
                     {
                         Console.WriteLine(text);
                     }
-
-
                 }
             }
 
